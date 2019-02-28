@@ -25,7 +25,6 @@ def chooseAct(state):
 	#returns action to take (pick action from set of action the state offers)
 	#also returns the new state after picking the action 
 	if(random.random() > expRate):
-		print("heyy")
 		#we are expoliting	
 		maxVal = float("-inf") #stores the maximum reward recieved from taking action 
 		actionNum = 0 #stores the action number of the action that gives the maximum reward
